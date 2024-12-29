@@ -9,6 +9,9 @@ git add .
 # Commit changes with a message
 git commit -m "Automated commit"
 
+# Create a new repository on GitHub using the GitHub CLI (gh)
+# gh repo create <repository-name> --public --source=. --remote=origin
+
 # Pull the latest changes
 git pull origin main
 
